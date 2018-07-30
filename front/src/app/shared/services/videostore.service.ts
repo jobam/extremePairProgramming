@@ -15,6 +15,12 @@ export class VideoStoreService {
         category: 'regular',
         description: 'A super Movie !',
         name: 'Blanche neige et les sept mains'
+      },
+      {
+        id: '2',
+        category: 'regular',
+        description: 'Just a lucky guy movie',
+        name: 'Jackie Chan et Michel Ange'
       }
     ];
     return Observable.of(stub);

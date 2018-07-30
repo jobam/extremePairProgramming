@@ -1,4 +1,4 @@
-import { Injectable } from '../../../../node_modules/@angular/core';
+import { Injectable } from '@angular/core';
 import { VideoStoreApi } from '../api/videostore-api';
 import { Observable } from 'rxjs/Observable';
 import 'rxjs/add/observable/of';
@@ -19,6 +19,6 @@ export class VideoStoreService {
     ];
     return Observable.of(stub);
 
-    return this.api.getMoviesGet();
+    // // return this.api.getMoviesGet();
   }
 }

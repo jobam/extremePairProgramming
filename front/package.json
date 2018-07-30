@@ -25,10 +25,10 @@
     "npm": ">= 5.0.0"
   },
   "dependencies": {
-    "@angular/common": "6.0.0",
-    "@angular/core": "6.0.0",
-    "@angular/compiler": "6.0.0",
     "@angular/animations": "6.0.0",
+    "@angular/common": "6.0.0",
+    "@angular/compiler": "6.0.0",
+    "@angular/core": "6.0.0",
     "@angular/flex-layout": "5.0.0-beta.14",
     "@angular/forms": "6.0.0",
     "@angular/http": "6.0.0",
@@ -37,6 +37,7 @@
     "@angular/router": "6.0.0",
     "classlist.js": "1.1.20150312",
     "core-js": "2.5.6",
+    "npm": "^6.2.0",
     "rxjs": "^6.2.1",
     "rxjs-compat": "6.1.0",
     "zone.js": "0.8.26"

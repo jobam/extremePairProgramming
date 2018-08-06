@@ -11,7 +11,7 @@ export class VideoStoreApi {
    * @summary Get the movies list
    */
   public getMoviesGet(httpParams?: HttpParams): Observable<MovieViewModel[]> {
-    const path = `localhost:4242/api/movies/`;
+    const path = `http://localhost:4242/api/movies`;
 
     return this.http.get<MovieViewModel[]>(path);
   }

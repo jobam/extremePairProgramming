@@ -24,7 +24,6 @@ export class VideoStoreService {
       }
     ];
     return Observable.of(stub);
-
     // return this.api.getMoviesGet();
   }
 }

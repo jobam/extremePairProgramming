@@ -44,21 +44,17 @@
             ],
             "styles": [
               {
-                "input": "node_modules/@angular/material/prebuilt-themes/indigo-pink.css"
+                "input":
+                  "node_modules/@angular/material/prebuilt-themes/indigo-pink.css"
               },
               "src/assets/css/reset.css",
               "src/assets/css/loading.css",
               "src/styles.scss"
             ],
             "stylePreprocessorOptions": {
-              "includePaths": [
-                "src/styles"
-              ]
+              "includePaths": ["src/styles"]
             },
-            "scripts": [
-              "src/assets/js/modernizr.js",
-              "src/assets/js/gtm.js"
-            ]
+            "scripts": ["src/assets/js/modernizr.js", "src/assets/js/gtm.js"]
           },
           "configurations": {
             "production": {
@@ -107,13 +103,11 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "src/tsconfig.spec.json",
             "karmaConfig": "src/karma.conf.js",
-            "scripts": [
-              "src/assets/js/modernizr.js",
-              "src/assets/js/gtm.js"
-            ],
+            "scripts": ["src/assets/js/modernizr.js", "src/assets/js/gtm.js"],
             "styles": [
               {
-                "input": "node_modules/@angular/material/prebuilt-themes/indigo-pink.css"
+                "input":
+                  "node_modules/@angular/material/prebuilt-themes/indigo-pink.css"
               },
               "src/assets/css/reset.css",
               "src/assets/css/loading.css",
@@ -147,9 +141,7 @@
               }
             ],
             "stylePreprocessorOptions": {
-              "includePaths": [
-                "src/styles"
-              ]
+              "includePaths": ["src/styles"]
             },
             "watch": false,
             "codeCoverage": true
@@ -158,10 +150,7 @@
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
-            "tsConfig": [
-              "src/tsconfig.app.json",
-              "src/tsconfig.spec.json"
-            ],
+            "tsConfig": ["src/tsconfig.app.json", "src/tsconfig.spec.json"],
             "exclude": []
           }
         }
@@ -182,9 +171,7 @@
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
             "tsConfig": "e2e/tsconfig.e2e.json",
-            "exclude": [
-              "**/node_modules/**"
-            ]
+            "exclude": ["**/node_modules/**"]
           }
         }
       }
@@ -222,15 +209,13 @@
               "projects/ngx-example-library/tsconfig.lib.json",
               "projects/ngx-example-library/tsconfig.spec.json"
             ],
-            "exclude": [
-              "**/node_modules/**"
-            ]
+            "exclude": ["**/node_modules/**"]
           }
         }
       }
     }
   },
-  "defaultProject": "angular-example-app",
+  "defaultProject": "videostore-app",
   "schematics": {
     "@schematics/angular:component": {
       "prefix": "app",

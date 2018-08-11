@@ -1,7 +1,7 @@
 ﻿using VideoStore.Business.Models;
 using Xunit;
 
-namespace Soat.CleanCoders.VideoStore.Tests
+namespace VideoStore.Business.Tests
 {
     public class VideoStoreTests
     {

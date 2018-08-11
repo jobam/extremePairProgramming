@@ -4,6 +4,7 @@ using System.Linq;
 using System.Net;
 using System.Runtime.InteropServices;
 using System.Threading.Tasks;
+using System.Web.Http.Description;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using VideoStore.API.Models;
@@ -14,9 +15,14 @@ namespace VideoStore.API.Controllers
     [ApiController]
     public class MoviesController : ControllerBase
     {
-        // GET api/values
+
+        /// <summary>
+        /// Returns the movies list
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
-        public ActionResult<IEnumerable<string>> Get()
+        [ResponseType(typeof(IEnumerable<MovieViewModel>))]
+        public IActionResult Get()
         {
             var stub = new List<MovieViewModel>()
             {
